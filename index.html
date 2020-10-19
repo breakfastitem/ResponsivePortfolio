@@ -13,18 +13,18 @@
 </head>
 
 <body>
-    <!--Navbar not wrapped in container-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Andrew Ehrman</a>
-        <!--handles responsiveness-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <!--Hamburger Icon-->
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <ul class="navbar-nav">
+    <header>
+        <!--Navbar not wrapped in container-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Andrew Ehrman</a>
+            <!--handles responsiveness-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!--Hamburger Icon-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="src/html/contact.html">Contact</a>
                     </li>
@@ -35,8 +35,10 @@
                         <a class="nav-link" href="./index.html">About</a>
                     </li>
                 </ul>
-        </div>
-    </nav>
+            </div>
+        </nav>
+    </header>
+
     <div class="container">
 
         <!--About me section-->
@@ -45,7 +47,7 @@
                 <div class="col-12">
                     <h1>About Me</h1>
                     <hr>
-                </div> 
+                </div>
             </div>
 
             <!--image with wrapped text-->
@@ -73,6 +75,15 @@
             </div>
         </section>
     </div>
+    <!--Footer and nav are excluded from container for time being-->
+    <footer>
+        
+        <div class="copyright">
+            <!--Gives the strip at the top of the copyright-->
+            <div class="copyright-buffer"></div>
+            <h2>@copyright</h2>    
+        </div>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

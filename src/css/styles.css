@@ -1,12 +1,36 @@
 body {
     background-color: rgb(253, 203, 0);
 }
+footer {
+    
+    background-color: aqua;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+}
+.copyright h2{
+    padding-top:5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    position: relative;
+    left: 41%;
+    right: auto;
+}
+.copyright-buffer {
+    width: 100%;
+    position: relative;
+    top:-10;
+    padding:2px ;
+    background-color: black;
+}
 /* Adds style for all content boxes in project*/
 .infoBox {
     background-color: red;
     margin-top: 90px;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-bottom: 90px;
 }
 .infoBox-row {
     margin-left: 20px;
