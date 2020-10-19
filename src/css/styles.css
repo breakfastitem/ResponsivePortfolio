@@ -1,6 +1,9 @@
 body {
     background-color: rgb(253, 203, 0);
 }
+.container {
+    margin-left: 5px;
+}
 /*styles for copyright and footer*/
 footer {
     
