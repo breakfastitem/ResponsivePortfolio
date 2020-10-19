@@ -1,13 +1,13 @@
 body {
     background-color: rgb(253, 203, 0);
 }
+/*styles for copyright and footer*/
 footer {
     
     background-color: aqua;
     width: 100%;
     position: fixed;
     bottom: 0;
-
 }
 .copyright h2{
     padding-top:5px;
