@@ -1,46 +1,49 @@
 body {
-    background-color: rgb(253, 203, 0);
+    color:red;
+    background-color: lightgray;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 .container {
-    margin-left: 5px;
+    margin-left: 0;
+    padding-left: 0;
 }
 /*styles for copyright and footer*/
 footer {
     
-    background-color: aqua;
+    background-color:#343a40;
     width: 100%;
     position: fixed;
     bottom: 0;
 }
-.copyright h2{
+.copyright-text h2{
     padding-top:5px;
     padding-bottom: 5px;
     font-size: 16px;
     position: relative;
-    left: 41%;
-    right: auto;
+    text-align: center;
 }
 .copyright-buffer {
     width: 100%;
     position: relative;
-    top:-10;
-    padding:2px ;
-    background-color: black;
+    top:-6px;
+    padding:3px ;
+    background-color: red;
 }
 /* Adds style for all content boxes in project*/
 .infoBox {
-    background-color: red;
+    background-color: #343a40;
     margin-top: 90px;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 90px;
+    margin-left:10px;
 }
 .infoBox-row {
     margin-left: 20px;
     margin-right: 20px;
 
 }
-/*style of tthe image in the about-me section*/
+/*style of the image in the about-me section*/
 .about-image{
     float: left;
     margin-right: 30px;
