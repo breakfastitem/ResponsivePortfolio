@@ -29,6 +29,15 @@ footer {
     padding:3px ;
     background-color: red;
 }
+/*Styles in the navbar header*/
+.navbar-brand {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: red;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: 700;
+}
+
 /* Adds style for all content boxes in project*/
 .infoBox {
     background-color: #343a40;
@@ -45,12 +54,19 @@ footer {
 }
 /*style of the image in the about-me section*/
 .about-image{
+    height:150px;
+    width:150px;
     float: left;
     margin-right: 30px;
 }
 /*margins for the images in portfolio*/
 .portfolio-image {
     margin-bottom: 10px;
+   
+}
+.portfolio-image img {
+    width: 350px;
+    height: 350px;
 }
 
 
