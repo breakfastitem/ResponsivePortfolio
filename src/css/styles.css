@@ -1,11 +1,14 @@
 body {
-    color:red;
+    color:rgb(47, 255, 75);
     background-color: lightgray;
     font-family: 'Noto Sans JP', sans-serif;
 }
 .container {
     margin-left: 0;
     padding-left: 0;
+}
+hr {
+    border-color: rgb(38, 194, 59);
 }
 /*styles for copyright and footer*/
 footer {
@@ -27,15 +30,16 @@ footer {
     position: relative;
     top:-6px;
     padding:3px ;
-    background-color: red;
+    background-color:rgb(38, 194, 59);
 }
 /*Styles in the navbar header*/
 .navbar-brand {
     font-family: 'Noto Sans JP', sans-serif;
-    background-color: red;
+    background-color:green;
     padding-left: 2px;
     padding-right: 2px;
     font-weight: 700;
+    color:black;
 }
 
 /* Adds style for all content boxes in project*/
@@ -58,6 +62,7 @@ footer {
     width:150px;
     float: left;
     margin-right: 30px;
+    margin-bottom: 10px;
 }
 /*margins for the images in portfolio*/
 .portfolio-image {
