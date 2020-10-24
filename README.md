@@ -2,8 +2,11 @@
 
 ## Table of Contents
 [Description](#description)
+
 [Installation](#installation)
+
 [Usage](#usage)
+
 [Credits](#credits)
 
 ## Description
@@ -15,7 +18,6 @@ This github contains a portfolio framework. This portfolio uses bootstrap compon
 
 ### About me (main)
 
-
 ## Installation
 Downloading contains all Assets.
 
@@ -25,4 +27,9 @@ The page can be viewed at https://breakfastitem.github.io/ResponsivePortfolio/. 
 ## Credits
 Made By Andrew Ehrman.
 
-Bootstrap components,jquery.js,popper.js were used.
+### Components Used
+Bootstrap components
+
+jquery.js
+
+popper.js
