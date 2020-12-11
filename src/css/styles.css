@@ -3,10 +3,6 @@ body {
     background-color: lightgray;
     font-family: 'Noto Sans JP', sans-serif;
 }
-.container {
-    margin-left: 0;
-    padding-left: 0;
-}
 hr {
     border-color: rgb(38, 194, 59);
 }
